@@ -1,0 +1,16 @@
+ya que no sabemos las dimensiones del salón, supondremos que es un salón rectangular de 4 x 6 metros y colocaremos los 8 ArUcos en esta prueba, de la siguiente manera Python lo puede entender:
+
+ArUcos en las esquinas: 4 marcadores (uno en cada esquina).
+ArUcos en la mitad de las paredes: 4 marcadores adicionales (uno en la mitad de cada pared).
+Con esta configuración, puedes asignar coordenadas a los ArUcos basadas en su posición física en el salón. Usaremos el siguiente sistema de coordenadas (en metros):
+
+ArUcos en las esquinas:
+ArUco_1 en (0,0)
+ArUco_2 en (6,0)
+ArUco_3 en (6,4)
+ArUco_4 en (0,4)
+ArUcos en las mitades de las paredes:
+ArUco_5 en (3,0) — mitad de la pared inferior.
+ArUco_6 en (6,2) — mitad de la pared derecha.
+ArUco_7 en (3,4) — mitad de la pared superior.
+ArUco_8 en (0,2) — mitad de la pared izquierda.
